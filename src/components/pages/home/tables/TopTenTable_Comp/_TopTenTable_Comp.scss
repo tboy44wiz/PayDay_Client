@@ -1,0 +1,39 @@
+@use  "../../../../../assets/styles/GlobalStyle" as global;
+
+.TopTenTableComp {
+    height: auto;
+    width: global.$fullWidth;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    .table__title {
+        font-size: global.$fontSize;
+        font-weight: 600;
+    };
+
+    .table__wrapper {
+        height: auto;
+        min-height: 300px;
+        width: global.$fullWidth;
+        margin-top: 10px;
+
+        .GridLoader__wrapper {
+            height: auto;
+            width: global.$fullWidth;
+            padding: 20px 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                margin-top: 10px;
+            };
+        };
+    };
+}

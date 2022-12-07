@@ -1,0 +1,23 @@
+@use "../../../../assets/styles/GlobalStyle" as global;
+
+
+.StackedBarChart2Comp {
+    height: 450px;
+    width: global.$fullWidth;
+    margin-bottom: 20px;
+    padding: 50px 10px 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .chart__title {
+        font-size: global.$fontSize;
+        font-weight: 600;
+    };
+
+    .recharts-legend-item {
+        font-size: 1.2rem;
+     };
+};

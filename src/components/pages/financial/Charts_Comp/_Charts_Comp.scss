@@ -1,0 +1,22 @@
+@use "../../../../assets/styles/GlobalStyle" as global;
+
+.ChartsComp {
+    height: auto;
+    width: global.$fullWidth;
+    margin-top: 35px;
+
+    .GridLoader__wrapper {
+        height: auto;
+        width: global.$fullWidth;
+        padding: 30px 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin-top: 10px;
+        };
+    };
+};

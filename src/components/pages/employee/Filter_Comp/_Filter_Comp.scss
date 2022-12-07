@@ -1,0 +1,23 @@
+@use "../../../../assets/styles/GlobalStyle" as global;
+@use "../../../../assets/styles/AppTheme" as theme;
+
+.FilterComp {
+    height: auto;
+    width: global.$fullWidth;
+
+    .filter__form {
+      margin-top: 10px;
+
+      .filter__button {
+        height: auto;
+        width: global.$fullWidth;
+        min-width: 400px;
+        border: none;
+        border-radius: 5px;
+        font-size: global.$subHeading;
+        font-weight: bold;
+        margin-top: 20px;
+        padding: 10px 0;
+      };
+    };
+};
